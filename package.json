@@ -1,0 +1,15 @@
+{
+  "name": "idprotect",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "api",
+    "ui"
+  ],
+  "scripts": {
+    "api": "yarn workspace api",
+    "ui": "yarn workspace ui"
+  },
+  "packageManager": "yarn@3.7.0"
+}
